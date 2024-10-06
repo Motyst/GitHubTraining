@@ -20,6 +20,7 @@
 1. Add, commit and push your first update
 2. Git Hash, Log and Head
 3. Amend last commit
+4. Restore and reset commands
 
 ---
 
@@ -27,8 +28,17 @@
 
 ### 3. Amend last commit
 
-**Key concepts:**
+**Main concepts:**
 
 * ```--amend``` works only with the last (HEAD) commit.
 * To add new files to the last commit use command ```git commit --amend --no-edit.``` (Message will remain the same)
 * To change message of the last commmit use command ```git commit --amend -m "New commit message"```
+
+
+### 4. Restore and reset commands
+
+**Main commands:**
+
+* ```git restore --staged <file>``` moves file from *staged* to *modified* or *untracked*
+* ```git reset --hard <hash>``` resets the history to the *commit* with hash 
+* ```git restore <file>``` resets changes that are not yet *staged* nor *commited*

@@ -4,7 +4,7 @@
 
 1. Install Git on your system
 2. Create a local repository
-3. Create a SSH key
+3. Create a SSH key on your computer
 4. Create a GitHub account and connect it with your public key
 5. Create a GitHub repository
 6. Connect local repository with GitHub repository

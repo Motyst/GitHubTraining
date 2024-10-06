@@ -23,3 +23,13 @@
 4. Pull request
 
 ---
+
+## 3. Git commands and usage
+
+### 3. Ammend last commit
+
+**Key concepts:**
+
+* **--amend** works only with the last (HEAD) commit.
+* To add new files to the last commit use command **git commit --amend --no-edit. (Message will remain the same)**
+* To change message of the last commmit use command **git commit --amend -m "New commit message"**

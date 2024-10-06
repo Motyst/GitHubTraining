@@ -19,5 +19,6 @@
 
 1. Add, commit and push your first update
 2. Git Hash, Log and Head
+3. Ammend last commit
 
 ---

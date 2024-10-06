@@ -19,13 +19,13 @@
 
 1. Add, commit and push your first update
 2. Git Hash, Log and Head
-3. Ammend last commit
+3. Amend last commit
 
 ---
 
 ## 3. Git commands and usage
 
-### 3. Ammend last commit
+### 3. Amend last commit
 
 **Key concepts:**
 

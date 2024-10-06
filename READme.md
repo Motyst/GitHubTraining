@@ -21,6 +21,7 @@
 2. Git Hash, Log and Head
 3. Amend last commit
 4. Restore and reset commands
+5. View changes in files
 
 ---
 
@@ -42,3 +43,10 @@
 * ```git restore --staged <file>``` moves file from *staged* to *modified* or *untracked*
 * ```git reset --hard <hash>``` resets the history to the *commit* with hash 
 * ```git restore <file>``` resets changes that are not yet *staged* nor *commited*
+
+### 5. View changes in files
+
+**Main commands:**
+
+* ```git diff ``` view changes in *modified* files
+* ```git diff --staged``` view changes in the *staged* files  

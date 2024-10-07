@@ -22,6 +22,7 @@
 3. Amend last commit
 4. Restore and reset commands
 5. View changes in files
+6. Ignoring file
 
 ---
 
@@ -51,3 +52,11 @@
 * ```git diff ``` view changes in *modified* files
 * ```git diff --staged``` view changes in the *staged* files  
 * Command ```git diff <commit1> <commit2>``` shows all changes that happened between commit1 and commit2
+
+### 6. Ignoring files
+
+**Main ieas:**
+
+* File ```.gitignore ``` allows to add list of files that should be ignored by git
+* What files are being ignored can be seen using command ```git status --ignored```
+* Examples of how to mark text (*text file used as example*) files to be ignore includes ```.txt``` -- ```/.txt``` -- ```**.txt``` -- ```main/*/.txt```

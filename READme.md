@@ -50,3 +50,4 @@
 
 * ```git diff ``` view changes in *modified* files
 * ```git diff --staged``` view changes in the *staged* files  
+* Command ```git diff <commit1> <commit2>``` shows all changes that happened between commit1 and commit2

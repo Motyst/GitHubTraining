@@ -24,6 +24,11 @@
 5. View changes in files
 6. Ignoring file
 
+### 4. Working with Github repositories
+
+1. Cloning other repositories
+2. Forking project
+
 ---
 
 ## 3. Git commands and usage
@@ -60,3 +65,19 @@
 * File ```.gitignore ``` allows to add list of files that should be ignored by git
 * What files are being ignored can be seen using command ```git status --ignored```
 * Examples of how to mark text (*text file used as example*) files to be ignore includes ```.txt``` -- ```/.txt``` -- ```**.txt``` -- ```main/*/.txt```
+
+---
+
+## 4. Working with Github repositories
+
+### 1. Cloning other repositories
+
+**Steps for cloning:**
+
+1. To clone repository from Github press "code" and select it's ssh link. 
+2. Use command ``` Git clone <link> ``` to clone repository
+
+### 2. Forking projects
+
+Forking allows to copy someone elses github repositoty into your own Github account and then adding whatever changes you want. 
+That's done usually when you don't have access to change the original repository.

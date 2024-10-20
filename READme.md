@@ -90,3 +90,5 @@ That's done usually when you don't have access to change the original repository
 1. To create a branch use command ```git branch <name>```
 2. To view branch use command ```git checkout <branch-name>``` & use ```git checkout -b <branch-name>``` to create a branch and switch to it.
 3. View existing local branches using ```git branch``` & remote repository branches using ```git branch -a```
+4. You can use command ```git diff``` to compare branches. For example ```git diff master <other branch>```. 
+You can also compare commits made in a new branch with another branch. Lastly you can also add suffix ```~``` with a number to commit during comparison in order to refer to earlier commit. 

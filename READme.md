@@ -28,6 +28,7 @@
 
 1. Cloning other repositories
 2. Forking project
+3. Creating and managing branches
 
 ---
 
@@ -81,3 +82,11 @@
 
 Forking allows to copy someone elses github repositoty into your own Github account and then adding whatever changes you want. 
 That's done usually when you don't have access to change the original repository.
+
+### 3. Creating and managing branches
+
+**Branches - How To:**
+
+1. To create a branch use command ```git branch <name>```
+2. To view branch use command ```git checkout <branch-name>``` & use ```git checkout -b <branch-name>``` to create a branch and switch to it.
+3. View existing local branches using ```git branch``` & remote repository branches using ```git branch -a```
